@@ -1,5 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
+
 public class Main {
     public static double getAverage(int values[])
     {
@@ -99,7 +100,7 @@ public class Main {
             }
             if(max > dataPoints[x])
             {
-                min = dataPoints[x];
+                max = dataPoints[x];
             }
         }
         System.out.println("The min is " + min);
